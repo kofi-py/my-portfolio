@@ -1,0 +1,22 @@
+/* NavBar.css */
+
+nav {
+  background-color: var(--primary-color);
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  font-family: var(--font-secondary);
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+  border-radius: 5px;
+}
