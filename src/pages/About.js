@@ -37,7 +37,7 @@ const About = () => {
       <motion.div className="about-section" variants={sectionVariants}>
         <h3 className="about-subheader">Skills</h3>
         <ul className="about-content list-disc list-inside">
-          <li>JavaScript, React, and Next.js</li>
+          <li>JavaScript</li>
           <li>Python, Django, and Flask</li>
           <li>Java, C++, and C#</li>
           <li>Tailwind CSS and Framer Motion</li>
