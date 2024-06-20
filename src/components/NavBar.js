@@ -1,20 +1,41 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../styles/NavBar.css";
+import {
+  faHome,
+  faUser,
+  faProjectDiagram,
+  faBible,
+} from "@fortawesome/free-solid-svg-icons";
+
 const NavBar = () => (
-  <nav style={{ backgroundColor: "#fc6255", padding: "1em" }}>
-    <Link to="/" style={{ margin: "0 1em", color: "#fff" }}>
-      Home
-    </Link>
-    <Link to="/projects" style={{ margin: "0 1em", color: "#fff" }}>
-      Projects
-    </Link>
-    <Link to="/sermons" style={{ margin: "0 1em", color: "#fff" }}>
-      Sermons
-    </Link>
-    <Link to="/about" style={{ margin: "0 1em", color: "#fff" }}>
-      About Me
-    </Link>
+  <nav className="bg-primary text-white p-4 flex justify-around">
+    <NavLink
+      to="/"
+      exact
+      className="hover:bg-white hover:text-primary p-2 rounded transition duration-300"
+    >
+      <FontAwesomeIcon icon={faHome} className="mr-2" /> Home
+    </NavLink>
+    <NavLink
+      to="/about"
+      className="hover:bg-white hover:text-primary p-2 rounded transition duration-300"
+    >
+      <FontAwesomeIcon icon={faUser} className="mr-2" /> About Me
+    </NavLink>
+    <NavLink
+      to="/projects"
+      className="hover:bg-white hover:text-primary p-2 rounded transition duration-300"
+    >
+      <FontAwesomeIcon icon={faProjectDiagram} className="mr-2" /> Projects
+    </NavLink>
+    <NavLink
+      to="/sermons"
+      className="hover:bg-white hover:text-primary p-2 rounded transition duration-300"
+    >
+      <FontAwesomeIcon icon={faBible} className="mr-2" /> Sermons
+    </NavLink>
   </nav>
 );
 
