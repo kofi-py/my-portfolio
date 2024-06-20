@@ -1,29 +1,36 @@
-/* About.css */
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
+.about-container {
+  padding: 2rem;
+  text-align: center;
 }
 
-.container h1 {
-  font-family: var(--font-primary);
-  font-weight: 700;
-  margin-bottom: 1em;
+.about-header {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
 }
 
-.container p {
-  font-family: var(--font-primary);
-  font-size: 1.2em;
-  line-height: 1.6;
-  text-align: justify;
+.about-subheader {
+  font-size: 2rem;
+  color: var(--secondary-color);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
-.highlight {
-  background-color: var(--highlight-color);
+.about-content {
+  font-size: 1.25rem;
   color: var(--text-color);
-  padding: 0.2em 0.4em;
-  border-radius: 3px;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.about-section {
+  margin-bottom: 2rem;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
+.list-inside {
+  padding-left: 1.5rem;
 }
