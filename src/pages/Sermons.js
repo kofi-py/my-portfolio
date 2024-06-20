@@ -3,8 +3,22 @@ import SermonCard from "../components/SermonCard";
 import "../styles/Sermons.css";
 
 const sermons = [
-  { title: "Sermon 1", date: "January 1, 2023", link: "#" },
-  { title: "Sermon 2", date: "February 1, 2023", link: "#" },
+  {
+    title: "The Lord, My Strength",
+    date: "March 28, 2021",
+    audioSrc: "../sermon-audio/the-lord-my-strength.mp3",
+  },
+  {
+    title: "Faith Without Your Agenda",
+    date: "February ‎14, ‎2024",
+    audioSrc: "",
+  },
+  { title: "Your Faith Has Made You Whole", date: "May 15, 2024", link: "#" },
+  {
+    title: "Why Wait? The Spiritual Significance and Benefits of Patience",
+    date: "June ‎15, ‎2024",
+    audioSrc: "#",
+  },
   // Add more sermons here
 ];
 
