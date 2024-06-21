@@ -6,7 +6,6 @@ import {
   faHome,
   faUser,
   faProjectDiagram,
-  faBible,
 } from "@fortawesome/free-solid-svg-icons";
 
 const NavBar = () => (
@@ -29,12 +28,6 @@ const NavBar = () => (
       className="hover:bg-white hover:text-primary p-2 rounded transition duration-300"
     >
       <FontAwesomeIcon icon={faProjectDiagram} className="mr-2" /> Projects
-    </NavLink>
-    <NavLink
-      to="/sermons"
-      className="hover:bg-white hover:text-primary p-2 rounded transition duration-300"
-    >
-      <FontAwesomeIcon icon={faBible} className="mr-2" /> Sermons
     </NavLink>
   </nav>
 );

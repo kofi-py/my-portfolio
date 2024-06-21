@@ -29,7 +29,7 @@ const Home = () => {
         Welcome to Kofi's Portfolio
       </motion.h1>
       <motion.p className="home-subheader" variants={textVariants}>
-        Explore my projects and sermons.
+        Explore my projects.
       </motion.p>
       <motion.div className="home-intro" variants={textVariants}>
         <p>
