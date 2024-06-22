@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import "../styles/Home.css";
 
 const Home = () => {
@@ -47,9 +48,14 @@ const Home = () => {
           <li>Love for creating engaging user experiences</li>
         </ul>
       </motion.div>
-      <motion.button className="cta-button" variants={buttonVariants}>
-        Contact Me
-      </motion.button>
+      <motion.div className="home-button" variants={buttonVariants}>
+        <Link
+          to="/contact"
+          className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors duration-300"
+        >
+          Contact Me
+        </Link>
+      </motion.div>
     </motion.div>
   );
 };
