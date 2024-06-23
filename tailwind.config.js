@@ -10,7 +10,7 @@ module.exports = {
         "text-color": "#333",
       },
       fontFamily: {
-        primary: ["Montserrat", "sans-serif"],
+        primary: ["King Kofi", "sans-serif"],
         secondary: ['"Adineue PRO"', "sans-serif"],
       },
       boxShadow: {

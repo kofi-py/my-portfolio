@@ -1,53 +1,25 @@
 /* Projects.css */
 
-.container {
+.projects-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensure it takes the full height of the viewport */
+  padding: 20px;
+  text-align: center;
 }
 
-.card {
-  background: #fff;
-  padding: 1em;
-  margin: 1em;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 300px; /* Adjust width as per design */
+.projects-header {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-family: "King Kofi", sans-serif;
 }
 
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.card h2 {
-  font-family: var(--font-primary);
-  font-weight: 700;
-  margin-bottom: 0.5em;
-}
-
-.card p {
-  font-family: var(--font-primary);
-  font-size: 1em;
-  line-height: 1.5;
-  color: #666;
-}
-
-.button-primary {
-  background-color: var(--primary-color);
-  color: #fff;
-  border: none;
-  padding: 0.5em 1em;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  font-family: var(--font-primary);
-  font-weight: 500;
-  margin-top: 1em;
-}
-
-.button-primary:hover {
-  background-color: #e6554b;
-  transform: translateY(-2px);
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px; /* Center within a max-width container */
 }

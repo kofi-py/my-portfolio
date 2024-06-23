@@ -7,8 +7,8 @@
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+  font-family: "King Kofi";
+  src: url("/public/fonts/KingKofiPaneuropean-Regular.otf") format("opentype");
 }
 
 :root {
@@ -18,7 +18,7 @@
   --highlight-color: #c2d422;
   --background-color: #f5f5f5;
   --text-color: #333;
-  --font-primary: "Montserrat", sans-serif;
+  --font-primary: "King Kofi", sans-serif;
   --font-secondary: "Adidas", sans-serif;
 }
 

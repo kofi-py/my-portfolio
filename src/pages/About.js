@@ -48,7 +48,8 @@ const About = () => {
         <h3 className="about-subheader">Hobbies & Interests</h3>
         <p className="about-content">
           When I'm not coding, I enjoy playing piano, reading the Bible, and
-          spending time outdoors. I also like making custom fonts.
+          spending time outdoors. I also like making custom fonts and making
+          music.
         </p>
       </motion.div>
     </motion.div>

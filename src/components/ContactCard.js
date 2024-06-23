@@ -45,9 +45,9 @@ const ContactCard = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceID = "YOUR_SERVICE_ID";
-    const templateID = "YOUR_TEMPLATE_ID";
-    const userID = "YOUR_USER_ID";
+    const serviceID = "service_u27313s";
+    const templateID = "template_k2kp3k9";
+    const userID = "5Q-gI3BmaD82E0UQY";
 
     emailjs.sendForm(serviceID, templateID, e.target, userID).then(
       (result) => {
