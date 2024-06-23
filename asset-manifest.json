@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.0626925f.css",
+    "main.js": "/my-portfolio/static/js/main.5b6636aa.js",
+    "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/KingKofiPaneuropean-Regular.otf": "/my-portfolio/static/media/KingKofiPaneuropean-Regular.c50dcf7ba518413aaa9f.otf",
+    "static/media/adineue PRO.woff2": "/my-portfolio/static/media/adineue PRO.aba2271e00f4e579a753.woff2",
+    "index.html": "/my-portfolio/index.html",
+    "main.0626925f.css.map": "/my-portfolio/static/css/main.0626925f.css.map",
+    "main.5b6636aa.js.map": "/my-portfolio/static/js/main.5b6636aa.js.map",
+    "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0626925f.css",
+    "static/js/main.5b6636aa.js"
+  ]
+}
