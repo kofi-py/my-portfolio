@@ -18,7 +18,14 @@ const projects = [
       "https://media.swncdn.com/cms/CROSSCARDS/24538-isaiah-43-2-1366-x-768.jpg",
     link: "https://youtu.be/GsuOXxyuGX4?si=x3MAQJ5zhqk8AwMC",
   },
-  // Add more projects as needed
+  {
+    title: "My PyPI Package",
+    description:
+      "This is my first Python package that I made. It is a simple package that allows you to do mathematical operations like finding the least common multiple of numbers. It also allows you to play with Fibbonaci numbers and primes.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/640px-Python-logo-notext.svg.png",
+    link: "https://pypi.org/project/kingkofi/2.0/",
+  },
 ];
 
 const Projects = () => {
